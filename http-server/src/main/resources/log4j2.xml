@@ -9,7 +9,7 @@
     </Appenders>
     <Loggers>
         <!-- 配置日志的根节点，打印trace等级及其以上等级的日志 -->
-        <root level="trace">
+        <root level="info">
             <appender-ref ref="console_out_appender"/>
         </root>
     </Loggers>
